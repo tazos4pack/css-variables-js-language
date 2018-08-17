@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Variables + JS translation</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h2><span id="atr1">Update CSS Variables with </span><span class='hl'>JS</span></h2>
+
+    <div class="controls">
+
+        <label for="blur" id="atr2">Blur: </label>
+        <input id="blur" type="range" name="blur" min="0" max="10" value="5" data-sizing="px">
+
+        <label for="border" id="atr3">Border Radius: </label>
+        <input id="border" type="range" name="border" min="0" max="100" value="5" data-sizing="px">
+
+        <label for="base" id="atr4">Base Color: </label>
+        <input id="base" type="color" name="base" value="#c70e0e">
+
+        <section class="language">
+            <span id="atr5">Language: </span>
+            <select>
+                <option value="en">EN</option>
+                <option value="pl">PL</option>
+            </select>
+        </section>
+
+
+    </div>
+
+    <div class="container">
+        <div class="item">
+            <img src="http://smutazos.pl/projects/css-vars-js-language/img/picard.jpg">
+        </div>
+        <div class="item">
+            <blockquote id="atr6">Being first at any cost is not always the point.</blockquote>
+            <p class="author">- Jean-Luc Picard</p>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

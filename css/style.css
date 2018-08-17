@@ -1,0 +1,84 @@
+:root {
+    --base: #c70e0e;
+    --blur: 5px;
+    --border: 5px;
+}
+
+body {
+    padding-top: 10vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.language select {
+    padding: 5px 30px;
+    border: none;
+    box-shadow: none;
+    font-size: 28px;
+    color: var(--base);
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+img {
+    border-radius: var(--border);
+    filter: blur(var(--blur));
+    width: 50%;
+}
+
+body {
+    text-align: center;
+    background: #051d2e;
+    color: white;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.controls {
+    margin-bottom: 50px;
+}
+
+input {
+    width: 100px;
+}
+
+blockquote {
+    border-left: 10px solid var(--base);
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote p {
+    display: inline;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 25px;
+    color: var(--base);
+    text-align: right;
+    filter: blur(var(--blur));
+}
+
+.hl {
+    color: var(--base);
+}
